@@ -33,3 +33,9 @@ body{
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+/*Estilos del nombre*/
+.name{
+    font-size: 24px;
+    margin-bottom: 10px;
+}

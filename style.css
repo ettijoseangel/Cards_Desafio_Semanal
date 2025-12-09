@@ -7,5 +7,11 @@
 
 /*Estilos generales de Body*/
 body{
-    font-family: "Lexend", sans-serif;
+    font-family: "Lexend", sans-serif; /*Fuente importada de Google Fonts*/
+    background-color: #141414;
+    color: white;
+    height: 100vh;
+    display: block; /*Nada de flexbox*/
+    text-align: center;
+    padding-top: 60px;
 }

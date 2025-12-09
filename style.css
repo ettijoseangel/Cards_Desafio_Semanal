@@ -7,7 +7,7 @@
 
 /*Estilos generales de Body*/
 body{
-    font-family: "Lexend", sans-serif; /*Fuente importada de Google Fonts*/
+    font-family: "Zalando Sans", sans-serif; /*Fuente importada de Google Fonts*/
     background-color: #141414;
     color: white;
     height: 100vh;
@@ -37,6 +37,7 @@ body{
 /*Estilos del nombre*/
 .name{
     font-size: 24px;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -44,5 +45,13 @@ body{
 .country{
     color: #A7FF40;
     font-size: 14px;
+    font-weight: 500;
     margin-bottom: 20px;
+}
+
+/*Estilos de la descripcion*/
+.description{
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 25px;
 }

@@ -1,0 +1,11 @@
+/*Reseteo basico*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos generales de Body*/
+body{
+    font-family: "Lexend", sans-serif;
+}

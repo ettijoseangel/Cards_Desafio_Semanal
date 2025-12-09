@@ -55,3 +55,35 @@ body{
     opacity: 0.8;
     margin-bottom: 25px;
 }
+
+/*Contenedor de botones*/
+.button-container{
+    margin-bottom: 10px;
+}
+
+/*Estilos de los botones de redes sociales*/
+.social-media{
+    display: block; /*Los botones se apilan sin flex*/
+    width: 100%; /*Ocupan todo el ancho del contenedor*/
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 12px; /*Espacio entre botones*/
+    cursor: pointer; /*Cursor de mano al pasar por encima*/
+    font-size: 14px;
+}
+
+/*Estilos del ultimo boton*/
+.social-media:last-child{
+    margin-bottom: 0; /*Quitar margen inferior del ultimo boton*/
+}
+
+/*Efecto hover en los botones*/
+.social-media:hover{
+    background-color: #A7FF40;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
